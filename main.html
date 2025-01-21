@@ -7,14 +7,15 @@
 </head>
 
 <body>
-	
-	<h1>Audio Player</h1>
-	<section id="buttons">
-		<button class="btn" id="sound1Btn">Sound 1</button>
-        <button class="btn" id="sound2Btn">Sound 2</button>
-        <button class="btn" id="sound3Btn">Sound 3</button>
-        <button class="btn" id="sound4Btn">Sound 4</button>
-        <button class="stop" id="stopBtn">Stop</button>
+	<div id="buttons">
+        <button class="btn" onclick="playSound('applause')">Applause</button>
+        <button class="btn" onclick="playSound('boo')">Boo</button>
+        <button class="btn" onclick="playSound('gasp')">Gasp</button>
+        <button class="btn" onclick="playSound('tada')">Tada</button>
+        <button class="btn" onclick="playSound('victory')">Victory</button>
+        <button class="btn" onclick="playSound('wrong')">Wrong</button>
+        <button class="btn stop" onclick="stopSound()">Stop</button>
+    </div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
