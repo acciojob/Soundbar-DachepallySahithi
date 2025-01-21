@@ -1,9 +1,10 @@
 body {
-    background-color: #E0B0FF;
+    background-color: #9966cc; /* Purple background */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 }
 
 #buttons {
@@ -11,15 +12,15 @@ body {
 }
 
 .btn {
-    background-color: #6A1B9A;
+    background-color: #663399; /* Darker purple */
     color: white;
-    padding: 15px 30px;
-    margin: 10px;
     border: none;
+    padding: 10px 20px;
+    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .stop {
-    background-color: #6A1B9A; 
+    background-color: #ff0000; /* Red for stop */
 }
