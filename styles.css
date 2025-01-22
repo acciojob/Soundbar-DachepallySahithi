@@ -1,26 +1,50 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center content */
 body {
-    background-color: #9966cc; /* Purple background */
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    background-color: #f4f4f4;
 }
 
+/* Styling the button container */
 #buttons {
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Style for each button */
+.btn, .stop {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .btn {
-    background-color: #663399; /* Darker purple */
+    background-color: #4CAF50;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
 }
 
 .stop {
-    background-color: #ff0000; /* Red for stop */
+    background-color: #f44336;
+    color: white;
+}
+
+.stop:hover {
+    background-color: #e53935;
 }
