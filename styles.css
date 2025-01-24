@@ -1,7 +1,10 @@
 #buttons {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line if needed */
+  background-color: #9966cc; /* Set background color to purple */
+  padding: 20px; /* Add padding around the buttons */
 }
 
 .btn {
@@ -9,12 +12,13 @@
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: #800080; /* Darker purple for buttons */
   color: white;
   font-size: 16px;
   cursor: pointer;
+  flex-basis: 100px; /* Set a minimum width for each button */
 }
 
 .stop {
-  background-color: #f44336;
+  background-color: #ff6347; /* Orange for stop button */
 }

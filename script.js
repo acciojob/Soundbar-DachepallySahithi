@@ -14,6 +14,6 @@ function playSound(soundName) {
 function stopSound() {
   for (const sound in sounds) {
     sounds[sound].pause();
-    sounds[sound].currentTime = 0; // Reset to the beginning
+    sounds[sound].currentTime = 0;
   }
 }
