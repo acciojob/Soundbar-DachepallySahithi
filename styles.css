@@ -1,50 +1,20 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Center content */
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
-}
-
-/* Styling the button container */
 #buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-/* Style for each button */
-.btn, .stop {
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.btn:hover {
-    background-color: #45a049;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .stop {
-    background-color: #f44336;
-    color: white;
-}
-
-.stop:hover {
-    background-color: #e53935;
+  background-color: #f44336;
 }
