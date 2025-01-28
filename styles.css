@@ -1,24 +1,37 @@
-#buttons {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  background-color: #9966cc; 
-  padding: 20px;
+  height: 100vh;
+  margin: 0;
+  background-color: #7b4bb3;
+  font-family: Arial, sans-serif;
+}
+
+#buttons {
+  display: flex;
+  gap: 10px;
 }
 
 .btn {
-  margin: 10px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #800080; 
+  background-color: #5e2a91;
   color: white;
+  border: none;
+  padding: 10px 20px;
   font-size: 16px;
+  border-radius: 8px;
   cursor: pointer;
-  flex-basis: 100px; 
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #4b2171;
 }
 
 .stop {
-  background-color: #800080;
+  background-color: #d9534f;
+}
+
+.stop:hover {
+  background-color: #c9302c;
 }
